@@ -24,16 +24,16 @@ Os scripts do projeto foram escritos em phyton e salvos em formato de notebook.
 ## Fluxo de execução do projeto
 Os dados base se encontram no diretório Data\RAW do projeto. Não sendo necessário baixar.
 
-![]('Digrama_Projeto.png')
+![](https://github.com/diegoBizarelo/Projeto-de-Bloco-Dados/blob/main/Docs/Project/Digrama_Projeto.png)
 
-*Ordem de execução dos scripts
+* Ordem de execução dos scripts
 	1. Ir ao diretório Code\DataPrep e abrir o notebook 'Limpar_de_Dados' e excutar os scripts
 		dados filtrados serão armazenados em Data\Processed
 	2. Ir ao diretório Code\Operationalization e abrir o notebook 'connect_to_aws' e excutar os scripts
 		para enviar dados a AWS.
 	3. O Modelo de predição se encontra em Code\Model em formato de notebook.
 
-*Comandos para bibliotecas necessárias
+* Comandos para bibliotecas necessárias
 pip install Prophet
 pip install awscrt
 pip install awsiotsdk
