@@ -1,6 +1,6 @@
-#Project Charter
+# Project Charter
 
-##Objetivo
+## Objetivo
 O Projeto consiste em analisar o consumo de energia de um domícilio.
 Caso o consumo diário ultrapasse a média do dia estimada daquele mês é emitido um alerta.
 
@@ -18,10 +18,10 @@ Caso o consumo diário ultrapasse a média do dia estimada daquele mês é emiti
   * Jupter Notebook para criação dos scripts.
   * AWS IoT
   
-##Scripts
+## Scripts
 Os scripts do projeto foram escritos em phyton e salvos em formato de notebook.
 
-##Fluxo de execução do projeto
+## Fluxo de execução do projeto
 Os dados base se encontram no diretório Data\RAW do projeto. Não sendo necessário baixar.
 
 ![]('Digrama_Projeto.png')
@@ -39,10 +39,10 @@ pip install awscrt
 pip install awsiotsdk
 
 
-##Procolos de comunicação
+## Procolos de comunicação
 * Protocolo mqqt para enviar dados à AWS
 
-##Pessoas envolvidas
+## Pessoas envolvidas
 * Quem está envolvido no projeto:
 	* Diego Bizarelo
 		* Data Scientist
